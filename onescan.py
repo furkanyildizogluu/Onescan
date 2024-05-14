@@ -59,7 +59,7 @@ if sec == "1":
     
     yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
     if yenidenbaslat =="y":
-          os.system("python araç.py")
+          os.system("python onescan.py")
    
 
    
@@ -100,7 +100,7 @@ elif sec == "2":
     
     yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
     if yenidenbaslat =="y":
-          os.system("python araç.py")
+          os.system("python onescan.py")
 
     
 
@@ -123,7 +123,7 @@ elif sec =="3":
      
      yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
      if yenidenbaslat =="y":
-          os.system("python araç.py")
+          os.system("python onescan.py")
 
     
      
@@ -149,7 +149,7 @@ elif sec =="4":
      
      yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
      if yenidenbaslat =="y":
-          os.system("python araç.py")        
+          os.system("python onescan.py")        
      
      
 elif sec =="5":
@@ -169,7 +169,7 @@ elif sec =="5":
      
      yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
      if yenidenbaslat =="y":
-          os.system("python araç.py") 
+          os.system("python onescan.py") 
     
 elif sec=="6":
 
@@ -209,7 +209,7 @@ elif sec=="6":
         
         yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
         if yenidenbaslat =="y":
-          os.system("python araç.py")
+          os.system("python onescan.py")
      
         
 elif sec =="7":
@@ -229,7 +229,7 @@ elif sec =="7":
         
         yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
         if yenidenbaslat =="y":
-          os.system("python araç.py")
+          os.system("python onescan.py")
         
         
 elif sec =="8":
@@ -251,7 +251,7 @@ elif sec =="8":
      
      yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
      if yenidenbaslat =="y":
-          os.system("python araç.py")
+          os.system("python onescan.py")
      
 elif sec =="9":
      os.system("figlet TROJEN OLUSTURMA ARACI")
@@ -285,7 +285,7 @@ elif sec =="9":
      
      yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
      if yenidenbaslat =="y":
-          os.system("python araç.py")
+          os.system("python onescan.py")
          
 elif sec =="10":
      os.system("figlet WORDPRESS ARACI")
@@ -325,7 +325,7 @@ elif sec =="10":
        
        yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
        if yenidenbaslat =="y":
-          os.system("python araç.py")
+          os.system("python onescan.py")
 elif sec =="11":
      os.system("figlet WORLDLIST ARACI")
      print(""" 
@@ -350,7 +350,7 @@ elif sec =="11":
      
      yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
      if yenidenbaslat =="y":
-          os.system("python araç.py")
+          os.system("python onescan.py")
 elif sec =="12":
      os.system("figlet GUVENLIK DUVARI TARAMASI")
      print("""                                              
@@ -369,7 +369,7 @@ elif sec =="12":
      
      yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
      if yenidenbaslat =="y":
-          os.system("python araç.py")
+          os.system("python onescan.py")
 elif sec =="13":
      os.system("figlet  WHOIS PASIF BILGI TOPLAMA ARACI")
      print(""" 
@@ -389,11 +389,11 @@ elif sec =="13":
      
      yenidenbaslat = input("ARAÇ YENİDEN BAŞLATILSIN MI ? (y/n): ")
      if yenidenbaslat =="y":
-          os.system("python araç.py")
+          os.system("python onescan.py")
 else:
     print("Hatalı Araç Numarası Girdiniz Araç Yeniden Başlatılıyor...")
     time.sleep(3)
-    os.system("python araç.py")
+    os.system("python onescan.py")
 
 
 
